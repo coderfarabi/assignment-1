@@ -88,6 +88,7 @@
   flex-direction: column;
   gap: 60px;
 }
+
 .main-title {
   font-size: 30px;
   font-weight: bold;
@@ -226,4 +227,21 @@
 .donate-btn {
   background-color: rgba(0, 106, 80, 1);
   color: white;
+}
+
+/* footer style  */
+/* .ftr{
+    /* display: flex; */
+    /* align-items: center; */
+
+
+.ftr-title{
+    font-size: 24px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+}
+
+.logo{
+    display: flex;
+    gap: 17px
 }
