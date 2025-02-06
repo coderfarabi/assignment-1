@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+}
+/* navigation style  */
+.main-btn {
+    padding: 8px 11px;
+    border-radius: 7px;
+    font-weight: semi-bold;
+    border: none;
+    font-size: 14px;
+  }
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn5{
+    align-items: ;
+    color:rgba(0, 106, 80, 1);
+    padding: 11px 22px;
+    border-radius: 7px;
+    font-weight: semi-bold;
+    border-color: rgba(0, 106, 80, 1);
+    font-size: 14px;
+}
+
+
+/* body style */
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(241, 241, 243, 1);
+}
+.bd {
+  padding: 0px 118px;
+}
+
+/* header style */
+
+.header {
+  padding: 14px 0px 0px;
+}
+.header-container {
+  background-color: #c6e4d6;
+  display: flex;
+  gap: 47px;
+  padding: 60px 45px;
+  border-radius: 11px;
+  justify-content: space-between;
+}
+.header-subtitle {
+  font-size: 18px;
+}
+.header-title {
+  font-size: 42px;
+  font-color: rgba(14, 14, 14, 1);
+}
+.header-btn {
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: semi-bold;
+  border: none;
+}
+.dark2 {
+  color: rgba(14, 14, 14, 0.5);
+}
+.header-content {
+  display: flex-column;
+}
+
+/* main style */
+
+.main-container {
+  gap: 24px;
+}
+
+.mainn {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.main-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+}
+.main-para {
+  font-size: 13px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.main-card-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+}
+.main-card-text {
+  font-size: 12px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+#btn1 {
+  background-color: rgba(84, 144, 245, 1);
+  color: white;
+}
+#btn2 {
+  background-color: rgba(9, 161, 92, 1);
+  color: white;
+}
+#btn3 {
+  background-color: rgba(255, 194, 57, 1);
+  color: white;
+}
+.main-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px 0px;
+  gap: 18px;
+}
+#main-card1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  justify-content: center;
+  border-radius: 7px;
+  padding: 24px;
+  font-weight: semi-bold;
+  width: 303px;
+}
+#main-card2 {
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 7px;
+  padding: 24px;
+
+  width: 303px;
+}
+#main-card3 {
+  background-color: rgba(247, 235, 207, 1);
+  border-radius: 7px;
+  padding: 24px;
+  font-weight: semi-bold;
+
+  width: 303px;
+}
+
+/* news feed style  */
+.news-img {
+  border-radius: 15px;
+  /* width: 302px; */
+}
+.news-feed-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+}
+.news-feed-card {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 35px;
+}
+.news-date-time {
+  display: flex;
+  gap: 9px;
+}
+.news-head {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.btn4 {
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+}
+
+/* donation style  */
+
+.donation-container {
+  text-align: center;
+}
+.combo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.donation-choice {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.donation-content{
+    padding: 0px 140px;
+}
+.money {
+  padding: 0px 30px;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  color: rgba(14, 14, 14, 0.8);
+}
+.money-text {
+  font-size: 30px;
+  text-align: center;
+}
+#second-money {
+  background-color: rgba(198, 228, 214, 1);
+}
+.custom-amount {
+    padding : 150px
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 750px;
+  border: none;
+}
+.donate-btn {
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+}
